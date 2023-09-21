@@ -1,0 +1,98 @@
+.fixed-panel {
+  min-height: 400px;
+  max-height: 400px;
+  background-color: #19313c;
+  color: white;
+  overflow: auto;
+}
+.heading{
+  text-align: center;
+  font-style: oblique;
+  font-weight: bold;
+  font-size: 400%;
+  color: aliceblue;
+  text-shadow: 2px;
+}
+.botText{
+  font-size: large;
+  text-align: center;
+  font-weight: bolder;
+  color: rgb(199, 232, 65);
+  font-size: x-large;
+}
+.panel {
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 6px solid transparent;
+  border-radius: 25px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+.panel-info {
+  border-color: #0c2735;
+}
+.panel-info > .panel-heading {
+  color: white;
+  background-color: #0c2735;
+  border-color: #0c2735;
+}
+#textInput{
+  margin-left: 35%;
+  margin-top: 20px;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 7px;
+  width: 20%;
+  font-size: 100%;
+  font-weight: 600;
+}
+.button{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 7px;
+}
+.button:hover {
+  background-color: #b6bf06; /* Green */
+  color: black;
+}
+.panel-footer {
+  padding: 10px 15px;
+  background-color: #0c2735;
+  border-top: 1px solid #0c2735;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+body {
+  background: rgb(96, 143, 149); /* Old browsers */
+  background: -moz-linear-gradient(
+    -45deg,
+    rgba(96, 143, 149, 1) 0%,
+    rgba(0, 133, 136, 1) 9%,
+    rgba(12, 36, 73, 1) 52%,
+    rgba(26, 30, 59, 1) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    -45deg,
+    rgba(96, 143, 149, 1) 0%,
+    rgba(0, 133, 136, 1) 9%,
+    rgba(12, 36, 73, 1) 52%,
+    rgba(26, 30, 59, 1) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    135deg,
+    rgba(96, 143, 149, 1) 0%,
+    rgba(0, 133, 136, 1) 9%,
+    rgba(12, 36, 73, 1) 52%,
+    rgba(26, 30, 59, 1) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#608f95', endColorstr='#1a1e3b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
